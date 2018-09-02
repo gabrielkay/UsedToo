@@ -25,7 +25,7 @@ void toLowerCase(std::string &word);
  */
 WordSet readCommonWords() {
     WordSet com;
-    std::string fname = "com.txt";
+    std::string fname = "common.txt";
     std::string str;
     std::ifstream file(fname.c_str());
     // Do error checking here
